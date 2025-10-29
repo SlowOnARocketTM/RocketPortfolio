@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlowOnARocket 🚀 - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">SlowOnARocket 🚀</div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">SlowOnARocket <span class="rocket">🚀</span></h1>
+            <p class="hero-subtitle">Twitch Streamer • Python Developer • Content Creator</p>
+            <p class="hero-tagline" id="heroTagline"></p>
+            <div class="hero-buttons">
+                <a href="https://twitch.tv/slowonarocket" target="_blank" class="btn btn-primary btn-twitch">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/>
+                    </svg>
+                    Watch on Twitch
+                </a>
+                <a href="https://github.com/slowonarocket" target="_blank" class="btn btn-secondary btn-github">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View GitHub
+                </a>
+                <a href="https://slowonarocket.itch.io/" target="_blank" class="btn btn-secondary btn-itch">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3.13 1.338C2.08 1.96.02 4.328 0 4.95v1.03c0 1.303 1.22 2.45 2.325 2.45 1.33 0 2.436-1.102 2.436-2.41 0 1.308 1.07 2.41 2.4 2.41 1.328 0 2.362-1.102 2.362-2.41 0 1.308 1.137 2.41 2.466 2.41h.024c1.33 0 2.466-1.102 2.466-2.41 0 1.308 1.034 2.41 2.363 2.41 1.33 0 2.4-1.102 2.4-2.41 0 1.308 1.106 2.41 2.435 2.41C22.78 8.43 24 7.282 24 5.98V4.95c-.02-.622-2.082-2.99-3.13-3.612-3.253-.114-5.508-.134-8.87-.133-3.362 0-5.617.02-8.87.133zm6.376 6.477c-1.053 1.263-2.226 2.11-3.326 2.11-.26 0-.522-.043-.78-.13-1.505-.51-2.19-2.107-1.544-3.59l.06-.13s.65-1.2 1.118-1.642c.44-.414.916-.623 1.43-.623 1.42 0 2.572 1.16 2.572 2.59 0 .213-.026.422-.075.622l-.02.078s-.01.041-.014.062c-.01.043-.02.086-.03.13h-.01c.01-.043.02-.086.03-.13h.02c.004-.021.01-.041.014-.062l.02-.078c.05-.2.076-.41.076-.622 0-1.43 1.152-2.59 2.572-2.59.513 0 .99.21 1.43.623.468.442 1.117 1.642 1.117 1.642l.06.13c.646 1.483-.04 3.08-1.544 3.59-.258.087-.52.13-.78.13-1.1 0-2.273-.847-3.326-2.11-.062-.075-.13-.15-.2-.223-.068.074-.136.148-.198.223zm-2.364 5.053l-.01-.01c.09.088.18.177.27.267.096-.09.19-.18.29-.268zm4.838 0c.1.088.194.178.29.268.09-.09.18-.18.27-.267zm-.505.506c-.097.095-.19.19-.28.287.096.1.19.194.28.288.095-.094.19-.19.285-.288-.095-.096-.19-.19-.285-.286zM9.49 19.94c.974 1.093 2.018 1.65 3.01 1.65.992 0 2.037-.558 3.01-1.65.14-.157.28-.315.414-.48-.534.043-1.07.065-1.61.065-.54 0-1.076-.022-1.61-.064l-.01.01-.205-.01-.205.01-.01-.01c-.534.043-1.07.065-1.61.065-.54 0-1.076-.022-1.61-.064.135.164.274.322.414.48z"/>
+                    </svg>
+                    Itch.io Games
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <p>Hey there! I'm passionate about bringing ideas to life through code and creativity.</p>
+                    
+                    <p>I spend my time building innovative AI tools, creating content for YouTube, and sharing my journey on Twitch. Whether it's developing automated video generators with <strong>Python</strong>, building AI assistants, or connecting hardware with <strong>Raspberry Pi</strong> and Arduino, I love exploring the intersection of technology and creativity.</p>
+                    
+                    <p>When I'm not coding, you'll find me streaming on Twitch, editing YouTube videos, playing FIFA, or adding to my collection of F1 models 🏎️.</p>
+                    
+                    <div class="interests-grid">
+                        <div class="interest-item">🤖 AI &amp; Automation</div>
+                        <div class="interest-item">🐍 Python Programming</div>
+                        <div class="interest-item">🎬 YouTube Video Editing</div>
+                        <div class="interest-item">🔧 Raspberry Pi &amp; Arduino</div>
+                        <div class="interest-item">🎮 Game Development</div>
+                        <div class="interest-item">📺 Twitch Streaming</div>
+                        <div class="interest-item">⚽ Gaming (FIFA)</div>
+                        <div class="interest-item">🏎️ F1 Model Collecting</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Projects</h2>
+            <div class="projects-grid">
+                <!-- Reddit Stories Generator - UNRELEASED -->
+                <div class="project-card project-card--unreleased fade-in">
+                    <div class="unreleased-badge">✨ UNRELEASED</div>
+                    <div class="project-icon" style="background: var(--color-bg-4);">🎬</div>
+                    <h3 class="project-title">Reddit Stories Python Generator</h3>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">Video</span>
+                        <span class="tag">AI</span>
+                    </div>
+                    <p class="project-description">Automated video creation tool that generates Reddit story videos with narration and editing. A complete end-to-end content creation pipeline.</p>
+                    <div class="project-status">
+                        <span class="status status--error">Unreleased</span>
+                    </div>
+                </div>
+
+                <!-- TalkBuddy - UNRELEASED -->
+                <div class="project-card project-card--unreleased fade-in">
+                    <div class="unreleased-badge">✨ UNRELEASED</div>
+                    <div class="project-icon" style="background: var(--color-bg-5);">🤖</div>
+                    <h3 class="project-title">TalkBuddy - AI Live Assistant</h3>
+                    <div class="project-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">Streaming</span>
+                        <span class="tag">Innovation</span>
+                    </div>
+                    <p class="project-description">The first-ever AI live assistant for streamers. Real-time interaction, chat moderation, and viewer engagement powered by AI.</p>
+                    <div class="project-status">
+                        <span class="status status--error">Unreleased - Pioneering Project</span>
+                    </div>
+                </div>
+
+                <!-- Cookie Chasers -->
+                <div class="project-card fade-in">
+                    <div class="project-icon" style="background: var(--color-bg-2);">🍪</div>
+                    <h3 class="project-title">Cookie Chasers</h3>
+                    <div class="project-tags">
+                        <span class="tag">Game Dev</span>
+                        <span class="tag">Godot</span>
+                        <span class="tag">Platformer</span>
+                    </div>
+                    <p class="project-description">A platformer game made during a game jam. Built with Godot Engine as Head Developer alongside ReptilianNoizezz.</p>
+                    <div class="project-status">
+                        <span class="status status--warning">In Development</span>
+                    </div>
+                    <a href="https://slowonarocket.itch.io/cookiechasers" target="_blank" class="project-link">
+                        View on Itch.io →
+                    </a>
+                </div>
+
+                <!-- Python Projects -->
+                <div class="project-card fade-in">
+                    <div class="project-icon" style="background: var(--color-bg-1);">🐍</div>
+                    <h3 class="project-title">Python Projects Collection</h3>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">APIs</span>
+                        <span class="tag">Raspberry Pi</span>
+                    </div>
+                    <p class="project-description">File management tools, API integrations, automation scripts, and hardware interfaces built with Python and Raspberry Pi.</p>
+                    <a href="https://github.com/slowonarocket" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+
+                <!-- YouTube Video Editing -->
+                <div class="project-card fade-in">
+                    <div class="project-icon" style="background: var(--color-bg-7);">🎥</div>
+                    <h3 class="project-title">YouTube Video Editing</h3>
+                    <div class="project-tags">
+                        <span class="tag">Video Editing</span>
+                        <span class="tag">Content</span>
+                        <span class="tag">YouTube</span>
+                    </div>
+                    <p class="project-description">Professional video editing for YouTube content - gaming highlights, tech tutorials, and creative storytelling.</p>
+                </div>
+
+                <!-- Electronics & Hardware -->
+                <div class="project-card fade-in">
+                    <div class="project-icon" style="background: var(--color-bg-3);">🔧</div>
+                    <h3 class="project-title">Electronics &amp; Hardware</h3>
+                    <div class="project-tags">
+                        <span class="tag">IoT</span>
+                        <span class="tag">Raspberry Pi</span>
+                        <span class="tag">Arduino</span>
+                    </div>
+                    <p class="project-description">Building projects with Raspberry Pi and Arduino - connecting hardware with software using Python for displays, IoT devices, and automation.</p>
+                </div>
+
+                <!-- Twitch Streaming -->
+                <div class="project-card fade-in">
+                    <div class="project-icon" style="background: var(--color-bg-6);">📺</div>
+                    <h3 class="project-title">Twitch Streaming</h3>
+                    <div class="project-tags">
+                        <span class="tag">Streaming</span>
+                        <span class="tag">Gaming</span>
+                        <span class="tag">Community</span>
+                    </div>
+                    <p class="project-description">Live coding sessions, gaming streams, and community hangouts. Join the adventure!</p>
+                    <a href="https://twitch.tv/slowonarocket" target="_blank" class="project-link">
+                        Watch on Twitch →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills</h2>
+            <div class="skills-grid fade-in">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Video Editing</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">AI/Automation</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">HTML/CSS/JavaScript</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Hardware/IoT</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Game Development</span>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="65"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Content Creation</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Links Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Let's Connect</h2>
+            <p class="contact-subtitle fade-in">Find me on these platforms</p>
+            <div class="social-links fade-in">
+                <a href="https://twitch.tv/slowonarocket" target="_blank" class="social-link social-twitch">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/>
+                    </svg>
+                    <span>Twitch</span>
+                </a>
+                <a href="https://github.com/slowonarocket" target="_blank" class="social-link social-github">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://slowonarocket.itch.io/" target="_blank" class="social-link social-itch">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3.13 1.338C2.08 1.96.02 4.328 0 4.95v1.03c0 1.303 1.22 2.45 2.325 2.45 1.33 0 2.436-1.102 2.436-2.41 0 1.308 1.07 2.41 2.4 2.41 1.328 0 2.362-1.102 2.362-2.41 0 1.308 1.137 2.41 2.466 2.41h.024c1.33 0 2.466-1.102 2.466-2.41 0 1.308 1.034 2.41 2.363 2.41 1.33 0 2.4-1.102 2.4-2.41 0 1.308 1.106 2.41 2.435 2.41C22.78 8.43 24 7.282 24 5.98V4.95c-.02-.622-2.082-2.99-3.13-3.612-3.253-.114-5.508-.134-8.87-.133-3.362 0-5.617.02-8.87.133zm6.376 6.477c-1.053 1.263-2.226 2.11-3.326 2.11-.26 0-.522-.043-.78-.13-1.505-.51-2.19-2.107-1.544-3.59l.06-.13s.65-1.2 1.118-1.642c.44-.414.916-.623 1.43-.623 1.42 0 2.572 1.16 2.572 2.59 0 .213-.026.422-.075.622l-.02.078s-.01.041-.014.062c-.01.043-.02.086-.03.13h-.01c.01-.043.02-.086.03-.13h.02c.004-.021.01-.041.014-.062l.02-.078c.05-.2.076-.41.076-.622 0-1.43 1.152-2.59 2.572-2.59.513 0 .99.21 1.43.623.468.442 1.117 1.642 1.117 1.642l.06.13c.646 1.483-.04 3.08-1.544 3.59-.258.087-.52.13-.78.13-1.1 0-2.273-.847-3.326-2.11-.062-.075-.13-.15-.2-.223-.068.074-.136.148-.198.223zm-2.364 5.053l-.01-.01c.09.088.18.177.27.267.096-.09.19-.18.29-.268zm4.838 0c.1.088.194.178.29.268.09-.09.18-.18.27-.267zm-.505.506c-.097.095-.19.19-.28.287.096.1.19.194.28.288.095-.094.19-.19.285-.288-.095-.096-.19-.19-.285-.286zM9.49 19.94c.974 1.093 2.018 1.65 3.01 1.65.992 0 2.037-.558 3.01-1.65.14-.157.28-.315.414-.48-.534.043-1.07.065-1.61.065-.54 0-1.076-.022-1.61-.064l-.01.01-.205-.01-.205.01-.01-.01c-.534.043-1.07.065-1.61.065-.54 0-1.076-.022-1.61-.064.135.164.274.322.414.48z"/>
+                    </svg>
+                    <span>Itch.io</span>
+                </a>
+                <div class="social-link social-discord">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                    </svg>
+                    <span>Discord: SlowOnARocket</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 SlowOnARocket. Made with HTML, CSS &amp; JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
